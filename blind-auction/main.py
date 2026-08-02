@@ -31,7 +31,7 @@ def main() -> None:
 
     while True:
         bidders = {}
-        number_bidders = verify_input("How many bidders there? ", "int")
+        number_bidders = verify_input("How many bidders are there? ", "int")
         biggest_bidder = ""
         biggest_bid = 0
 
